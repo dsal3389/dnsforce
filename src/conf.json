@@ -1,0 +1,8 @@
+{
+    "threads": 10,
+    "domain": "domain.com",
+    "output": "results.txt",
+    "wordlist": "wordlist.txt",
+    "time": 3,
+    "json": false
+}
