@@ -23,8 +23,6 @@ class Worker:
         self.wrds_per_loop = math.ceil(self.aggressiveness[0] * len(self.wrds))
         self.report_callback = report_callback
 
-    def report(self, domain, addr):
-        print('resolved %s => %s' %(domain, addr))
 
     def resolve(self, event):
         wrds_tracker = 0
